@@ -11,9 +11,9 @@ import random
 from time import sleep
 
 # Example of a connection
-api_id = 2945521
-api_hash = "287777e295269773d017fef7bd4fe3ef"
-phone = "+37253678809"
+api_id = 29766761
+api_hash = "28m017fef7bd4fe3ef"
+phone = "+9"
 client = TelegramClient(phone, api_id, api_hash)
 client.connect()
 if not client.is_user_authorized():
